@@ -54,6 +54,9 @@ textarea:focus {
   background-color: #4b7be5;
   cursor: pointer;
 }
+.delete-icon {
+  cursor: pointer;
+}
 .footer {
   display: flex;
   align-items: center;

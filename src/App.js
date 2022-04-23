@@ -41,9 +41,17 @@ function App() {
     const newNotes = [...notes, newNote];
     setNotes(newNotes);
   };
+  const removeNote = (id) => {
+    const newNotes = notes.filter((note) => note.id !== id);
+    setNotes(newNotes);
+  };
   return (
     <div className="container">
-      <NoteList notes={notes} handleAddNote={addNote} />
+      <NoteList
+        notes={notes}
+        handleAddNote={addNote}
+        handleRemoveNote={removeNote}
+      />
     </div>
   );
 }
