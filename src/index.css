@@ -19,6 +19,9 @@ code {
 h1 {
   font-family: "Acme", sans-serif;
 }
+text {
+  font-family: "Acme", sans-serif;
+}
 .btn {
   width: 5%;
   height: 50px;

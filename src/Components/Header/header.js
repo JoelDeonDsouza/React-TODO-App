@@ -8,7 +8,7 @@ const Header = ({ handleMode }) => {
         onClick={() => handleMode((preDarkMode) => !preDarkMode)}
         className="btn"
       >
-        Mode
+        <text>Mode</text>
       </button>
     </div>
   );
