@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
-const AddNote = () => {
+const AddNote = ({ handleAddNote }) => {
+  const [noteText, setNoteText] = useState("");
+  const handleChange = (e) => {
+    setNoteText(e.target.value);
+  };
+  const handleClick = () => {
+    handleAddNote(noteText);
+  };
   return (
     <div className="note new">
-      <textarea rows="8" cols="10" placeholder="Type your note..."></textarea>
+      <textarea
+        rows="8"
+        cols="10"
+        placeholder="Type your note..."
+        value={noteText}
+        onChange={handleChange}
+      ></textarea>
       <div className="footer">
         <small>120 Remining</small>
-        <button className="save">Save</button>
+        <button className="save" onClick={handleClick}>
+          Save
+        </button>
       </div>
     </div>
   );
