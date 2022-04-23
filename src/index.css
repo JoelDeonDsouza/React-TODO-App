@@ -32,6 +32,27 @@ code {
   flex-direction: column;
   justify-content: space-between;
 }
+.note.new {
+  background-color: #b6ffce;
+}
+textarea {
+  border: none;
+  resize: none;
+  background-color: #b6ffce;
+}
+textarea:focus {
+  outline: none;
+}
+.save {
+  background-color: #4d96ff;
+  border: none;
+  border-radius: 12px;
+  padding: 5px 10px 5px 10px;
+}
+.save:hover {
+  background-color: #4b7be5;
+  cursor: pointer;
+}
 .footer {
   display: flex;
   align-items: center;
