@@ -16,6 +16,25 @@ code {
   align-items: center;
   justify-content: space-between;
 }
+.btn {
+  width: 5%;
+  height: 50px;
+  display: inline-block;
+  border: 0.16em solid rgb(255, 255, 255);
+  border-radius: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #ededed;
+  text-shadow: 0 0.04em 0.04em #18161641;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #444444;
+}
+
+.btn:hover {
+  color: #2c3333;
+  background-color: rgb(247, 239, 239);
+}
 .dark-mode {
   background-color: #303841;
 }

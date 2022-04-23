@@ -6,9 +6,9 @@ const Header = ({ handleMode }) => {
       <h1>Sticky Note Keeper</h1>
       <button
         onClick={() => handleMode((preDarkMode) => !preDarkMode)}
-        className="save"
+        className="btn"
       >
-        Custome mode
+        Mode
       </button>
     </div>
   );
