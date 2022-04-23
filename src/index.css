@@ -11,6 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #effffd;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+.search input {
+  border: none;
+  background-color: #effffd;
+}
+.search input:focus {
+  outline: none;
+}
 .container {
   max-width: 1000px;
   margin-right: auto;
