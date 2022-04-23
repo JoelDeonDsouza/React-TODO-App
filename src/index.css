@@ -16,6 +16,9 @@ code {
   align-items: center;
   justify-content: space-between;
 }
+h1 {
+  font-family: "Acme", sans-serif;
+}
 .btn {
   width: 5%;
   height: 50px;
