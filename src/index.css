@@ -11,6 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dark-mode {
+  background-color: #303841;
+}
+.dark-mode h1 {
+  color: #eee;
+}
 .search {
   display: flex;
   align-items: center;
@@ -32,6 +43,7 @@ code {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  min-height: 100vh;
 }
 .notes {
   display: grid;
