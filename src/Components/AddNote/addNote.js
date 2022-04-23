@@ -6,7 +6,10 @@ const AddNote = ({ handleAddNote }) => {
     setNoteText(e.target.value);
   };
   const handleClick = () => {
-    handleAddNote(noteText);
+    if (noteText.trim().length > 0) {
+      handleAddNote(noteText);
+      setNoteText(" ");
+    }
   };
   return (
     <div className="note new">
