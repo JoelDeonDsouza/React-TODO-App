@@ -9,8 +9,8 @@ function App() {
   const [notes, setNotes] = useState([
     {
       id: nanoid(),
-      text: "Hello World",
-      date: "06/04/2000",
+      text: "Start your notes...",
+      date: "23/04/2022",
     },
   ]);
   const [searchNote, setSearchNote] = useState("");
