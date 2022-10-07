@@ -1,6 +1,6 @@
 ## 🚀 Sticky Note Keeper
 
-## Screenshots
+## Screenshots 
 
 ![App Screenshot](https://jobelhome.w3spaces.com/Screenshot_2022-04-24_at_14.43.07.png?bypass-cache=04302824)
 
@@ -29,12 +29,14 @@ Install dependencies
 
 ```bash
   npm install
+  yarn install
 ```
 
 Start the React-App
 
 ```bash
   npm start
+  yarn start
 ```
 
 ## Features
